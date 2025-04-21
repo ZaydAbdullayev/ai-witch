@@ -52,6 +52,12 @@
   overflow-x: hidden;
   word-wrap: break-word; /* Uzun kelimeleri böler */
   overflow-wrap: break-word; /* Taşmayı önler */
+  background-image: url("../../assets/fire.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: invert(8%) sepia(98%) saturate(1897%) hue-rotate(175deg)
+    brightness(103%) contrast(102%);
 }
 
 .messages > p {

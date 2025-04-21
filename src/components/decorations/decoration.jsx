@@ -5,9 +5,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { heros } from "../../mocks/ai";
-import { SiPolygon } from "react-icons/si";
 import { useNavigate } from "react-router-dom";
-import fire from "../../assets/fire1.gif";
 
 // import required modules
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
