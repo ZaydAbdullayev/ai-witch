@@ -140,6 +140,7 @@
     flex-direction: column;
     padding: 1% 2%;
     background: #00f0ff3d;
+    -webkit-backdrop-filter: blur(30px);
     backdrop-filter: blur(30px);
 
     > h3 {
