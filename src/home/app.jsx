@@ -7,7 +7,7 @@ import { LuBrain } from "react-icons/lu";
 import { FaRegLightbulb } from "react-icons/fa";
 import { GiServerRack } from "react-icons/gi";
 import { logs, heros } from "../mocks/ai";
-import hacking from "../assets/magic.gif";
+import hacking from "../assets/butterfly.gif";
 import analyis from "../assets/analyis.gif";
 import CountUp from "react-countup";
 
@@ -75,8 +75,8 @@ export const App = () => {
           <span className="corner-right-bottom"></span>
           <span className="corner-left-bottom"></span>
         </div>
-        <div className="df fdc gap-20 frame">
-          <img src={hacking} alt="computer"  className="bg-image"/>
+        <div className="df fdc gap-20 frame gradient-bg">
+          <img src={hacking} alt="computer" className="bg-image" />
           <h1 className="w100 df aic jcsb">
             COGNITIVE ARCHITECTURE <LuBrain />
           </h1>

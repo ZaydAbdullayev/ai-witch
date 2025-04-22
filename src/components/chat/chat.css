@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: column;
     font-size: 14px;
-    color: #2baaff;
+    color: #00f0ff;
     text-transform: uppercase;
 
     span:nth-child(1) {
@@ -52,22 +52,17 @@
   overflow-x: hidden;
   word-wrap: break-word; /* Uzun kelimeleri böler */
   overflow-wrap: break-word; /* Taşmayı önler */
-  background-image: url("../../assets/fire.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: invert(8%) sepia(98%) saturate(1897%) hue-rotate(175deg)
-    brightness(103%) contrast(102%);
 }
 
 .messages > p {
   font-size: 14px;
   white-space: normal; /* Metnin alt satıra geçmesini sağlar */
   word-break: break-word; /* Kelimeleri gerekirse böler */
+  margin-bottom: 20px;
 }
 
 .messages > p > strong {
-  color: #2baaff;
+  color: #00f0ff;
 }
 
 .messages::-webkit-scrollbar {
@@ -75,7 +70,7 @@
 }
 
 .messages::-webkit-scrollbar-thumb {
-  background-color: #2baaff;
+  background-color: #00f0ff;
   border-radius: 5px;
 }
 
@@ -89,7 +84,7 @@
     flex: 1;
     padding: 10px 15px;
     height: 50px;
-    border: 1px solid #2baaff;
+    border: 1px solid #00f0ff;
     border-radius: 5px;
     background: none;
     -webkit-backdrop-filter: blur(20px);
@@ -103,7 +98,7 @@
     height: 50px;
     border: none;
     border-radius: 5px;
-    background-color: #2baaff;
+    background-color: #00f0ff;
     color: #fff;
     cursor: pointer;
     font-size: 16px;

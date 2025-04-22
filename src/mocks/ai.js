@@ -1,13 +1,19 @@
-import doctor from '../assets/wizard1.png';
-import scarlet from '../assets/wizard2.png';
-import shali from '../assets/wizard3.png';
-import devergent from '../assets/wizard4.png';
+import naruto from '../assets/anime3.png';
+import sailor from '../assets/anime5.png';
+import goku from '../assets/anime7.png';
+import mikasa from '../assets/anime6.png';
+import hashira from '../assets/anime4.png';
+import safebooru from '../assets/anime2.png';
+import yuki from '../assets/anime1.png';
 
 export const heros = [
-    { id: 1, name: "Scarlet Witch", img: scarlet, description: "Scarlet Witch is a character in the game. She is a powerful character with a lot of abilities. She is a great warrior and a great leader. She is a great character to play with." },
-    { id: 2, name: "Doctor Strange", img: doctor, description: "Doctor Strange is a character in the game. He is a powerful character with a lot of abilities. He is a great warrior and a great leader. He is a great character to play with." },
-    { id: 3, name: "Shali", img: shali, description: "Shali is a character in the game. She is a powerful character with a lot of abilities. She is a great warrior and a great leader. She is a great character to play with." },
-    { id: 4, name: "Devergent", img: devergent, description: "Devergent is a character in the game. He is a powerful character with a lot of abilities. He is a great warrior and a great leader. He is a great character to play with." },
+    { name: 'Naruto Uzumaki', img: naruto, id: 1, description: 'The Seventh Hokage of Konohagakure, known for his determination and never-give-up attitude.' },
+    { name: 'Safebooru', img: safebooru, id: 6, description: 'A popular imageboard for anime and manga content.' },
+    { name: 'Goku', img: goku, id: 3, description: 'The Saiyan warrior known for his strength and love for fighting.' },
+    { name: 'Mikasa Ackerman', img: mikasa, id: 4, description: 'A skilled soldier and protector of Eren Yeager.' },
+    { name: 'Hashira', img: hashira, id: 5, description: 'The elite demon slayers of the Demon Slayer Corps, each with unique abilities.' },
+    { name: 'Yuki', img: yuki, id: 7, description: 'A character from the anime series, known for their unique abilities and personality.' },
+    { name: 'Sailor Moon', img: sailor, id: 2, description: 'The leader of the Sailor Guardians, fighting for love and justice.' },
 ]
 
 

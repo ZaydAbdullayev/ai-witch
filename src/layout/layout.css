@@ -41,62 +41,69 @@
 
 .frame {
   position: relative;
-  border: 1px solid #fff2;
-}
-/* Sol Üst Köşe */
-.frame::before {
-  content: "";
-  position: absolute;
-  top: -1px;
-  left: -1px;
-  width: 20px;
-  height: 20px;
-  border-top: 2px solid #2baaff;
-  border-left: 2px solid #2baaff;
+  padding: 24px;
+  background: rgba(15, 15, 30, 0.9);
+  box-shadow: inset 0 0 20px rgba(0, 255, 255, 0.05),
+    0 0 10px rgba(0, 255, 255, 0.08);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-/* Sağ Üst Köşe */
+/* Köşe parçaları */
+.frame::before,
 .frame::after {
   content: "";
   position: absolute;
+  width: 40px;
+  height: 10px;
+  background: linear-gradient(to right, #00f0ff, transparent);
+  border-radius: 20px;
   top: -1px;
-  right: -1px;
-  width: 20px;
-  height: 20px;
-  border-top: 2px solid #2baaff;
-  border-right: 2px solid #2baaff;
+  left: 20px;
 }
 
-/* Sağ Alt Köşe */
-.frame .corner-right-bottom {
-  content: "";
-  position: absolute;
+.frame::after {
+  top: auto;
   bottom: -1px;
-  right: -1px;
-  width: 20px;
-  height: 20px;
-  border-bottom: 2px solid #2baaff;
-  border-right: 2px solid #2baaff;
+  left: auto;
+  right: 20px;
+  background: linear-gradient(to left, #00f0ff, transparent);
 }
 
-/* Sol Alt Köşe */
+/* Extra diagonal çizgi */
 .frame .corner-left-bottom {
-  content: "";
   position: absolute;
-  bottom: -1px;
-  left: -1px;
-  width: 20px;
-  height: 20px;
-  border-bottom: 2px solid #2baaff;
-  border-left: 2px solid #2baaff;
+  width: 2px;
+  height: 30px;
+  background: #00f0ff;
+  transform: rotate(45deg);
+  top: 10px;
+  left: 10px;
+  opacity: 0.5;
+  box-shadow: 0 0 4px #00f0ff77;
+}
+
+.frame .corner-right-bottom {
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  background: #00f0ff;
+  transform: rotate(45deg);
+  top: unset;
+  bottom: 10px;
+  left: unset;
+  right: 10px;
+  opacity: 0.5;
+  box-shadow: 0 0 4px #008cff77;
 }
 
 .gradient-bg {
-  background: rgb(0, 0, 3);
   background: linear-gradient(
-    90deg,
-    rgba(0, 0, 3, 1) 20%,
-    rgba(74, 156, 232, 0.178) 50%,
-    rgba(0, 0, 3, 1) 80%
+    135deg,
+    rgba(5, 10, 20, 0.95) 0%,
+    rgba(0, 89, 255, 0.08) 35%,
+    rgba(5, 10, 20, 0.95) 100%
   );
+  background-blend-mode: screen;
+  backdrop-filter: blur(5px);
 }

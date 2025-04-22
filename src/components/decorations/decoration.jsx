@@ -8,7 +8,7 @@ import { heros } from "../../mocks/ai";
 import { useNavigate } from "react-router-dom";
 
 // import required modules
-import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
+import { Pagination, Navigation, EffectCards } from "swiper/modules";
 
 export default function AISwiper() {
   const navigate = useNavigate();
@@ -17,7 +17,7 @@ export default function AISwiper() {
       <h1 className="w100 df jcc chat-title">Omni Gods</h1>
       <h2 className="w100 df jcc">Select to talk to your favorite character</h2>
       <Swiper
-        effect={"coverflow"}
+        effect={"cards"}
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={"auto"}
@@ -30,7 +30,7 @@ export default function AISwiper() {
           slideShadows: false,
         }}
         pagination={true}
-        modules={[EffectCoverflow, Pagination, Navigation]}
+        modules={[EffectCards, Pagination, Navigation]}
       >
         {heros.map((hero, index) => (
           <SwiperSlide
