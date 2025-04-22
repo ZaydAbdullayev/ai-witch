@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "MedievalSharp", cursive;
+  font-family: "Freckle Face", cursive;
   letter-spacing: 1px;
 }
 
@@ -24,7 +24,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #00f0ff;
+  background: #ff92a4;
   border-radius: 10px;
 }
 
@@ -39,17 +39,17 @@ body::after {
   background: rgb(0, 0, 3);
   /* background: linear-gradient(
     49deg,
-    rgb(0, 0, 3) 75%,
-    rgba(82, 32, 32, 0.678) 85%,
-    rgba(232, 74, 74, 0.678) 98%,
-    rgb(232, 74, 74) 100%
-  ); */
-  background: linear-gradient(
-    49deg,
-    rgb(0, 0, 3) 75%,
+    rgb(3, 0, 2) 75%,
     rgba(32, 64, 82, 0.678) 85%,
     rgba(74, 148, 232, 0.678) 98%,
     rgb(74, 182, 232) 100%
+  ); */
+    background: linear-gradient(
+    49deg,
+    rgb(3, 0, 2) 75%,
+    rgba(82, 32, 66, 0.678) 85%,
+    rgba(232, 74, 148, 0.678) 98%,
+    rgb(232, 74, 182) 100%
   );
   filter: blur(15px);
   z-index: -1;
@@ -61,7 +61,7 @@ body::after {
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: #000003;
+  background: #030002;
 
   -webkit-user-select: none;
   user-select: none;

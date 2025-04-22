@@ -19,8 +19,8 @@
     font-size: 20px;
     color: #fff;
     padding: 0 15px;
-    border-bottom: 1px solid #00f0ff;
-    background: linear-gradient(90deg, #fff, #00f0ff);
+    border-bottom: 1px solid #ff92a4;
+    background: linear-gradient(90deg, #fff, #ff92a4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -40,7 +40,7 @@
   > div {
     position: relative;
     width: calc(100% / 2 - 10px);
-    background: #789ceb25;
+    background: #eb78bf25;
     border: 1px solid #fff3;
     padding: 1% 2%;
     font-size: 12px;
@@ -48,7 +48,7 @@
 
     > p {
       font-size: 20px;
-      color: #00f0ff;
+      color: #ff92a4;
     }
   }
 
@@ -57,7 +57,7 @@
     position: absolute;
     width: 40px;
     height: 10px;
-    background: linear-gradient(to right, #00f0ff, transparent);
+    background: linear-gradient(to right, #ff92a4, transparent);
     top: -1px;
     left: 20px;
     border-radius: 20px;
@@ -65,8 +65,8 @@
 
   button {
     padding: 5px 10px;
-    border: 1px solid #00f0ff;
-    color: #00f0ff;
+    border: 1px solid #ff92a4;
+    color: #ff92a4;
     font-size: 20px;
     background: none;
     text-transform: uppercase;
@@ -78,7 +78,7 @@
   > div {
     width: 100%;
     padding: 1% 2%;
-    background: #789ceb25;
+    background: #eb78bf25;
     border: 1px solid rgba(255, 255, 255, 0.39);
     font-size: 12px;
     border-radius: 10px;
@@ -86,7 +86,7 @@
     > p,
     > span {
       font-size: 18px;
-      color: #00f0ff;
+      color: #ff92a4;
     }
   }
 }
@@ -103,10 +103,10 @@
     h1 {
       font-size: 20px;
       color: #fff;
-      border-bottom: 1px solid #00f0ff;
+      border-bottom: 1px solid #ff92a4;
       padding: 0 15px;
       /* liner text */
-      background: linear-gradient(90deg, #fff, #00f0ff);
+      background: linear-gradient(90deg, #fff, #ff92a4);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
 
@@ -139,7 +139,7 @@
     display: flex;
     flex-direction: column;
     padding: 1% 2%;
-    background: #00f0ff3d;
+    background: #ff92a43d;
     -webkit-backdrop-filter: blur(30px);
     backdrop-filter: blur(30px);
 
@@ -164,7 +164,7 @@
 
 .stats {
   font-size: 18px;
-  color: #00f0ff;
+  color: #ff92a4;
 
   > div {
     align-items: flex-end;

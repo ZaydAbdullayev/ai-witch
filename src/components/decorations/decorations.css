@@ -1,16 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap");
 .ai-swiper {
   width: 100%;
   padding: 2% 5%;
 
   > h1 {
     padding: 0 15px;
-    font-size: 40px;
-    line-height: 50px;
-    background: linear-gradient(180deg, #fff 20%, #00f0ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 700;
+    color: #78e0ff;
+    -webkit-text-stroke: 3px #1a72d6;
+    text-shadow: 0px 3px 0px #008dd6, 0px 5px 15px rgba(0, 0, 0, 0.2);
+    line-height: 1.1;
     text-shadow: 0 10px 20px #00f0ff90, 0 20px 40px #00f0ff88,
-      0 30px 60px #00f0ff55, 0 40px 80px #00f0ff66, 0 50px 100px #00f0ff44,
       0 60px 120px #00f0ff33, 0 70px 140px #00f0ff22, 0 80px 160px #00f0ff11;
   }
 
@@ -23,7 +24,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 10px 20px #00f0ff90, 0 20px 40px #00f0ff88,
-      0 30px 60px #00f0ff55, 0 40px 80px #00f0ff66, 0 50px 100px #00f0ff44,
       0 60px 120px #00f0ff33, 0 70px 140px #00f0ff22, 0 80px 160px #00f0ff11;
   }
 }
@@ -63,7 +63,7 @@
       width: 90%;
       height: 100%;
       z-index: -1;
-      background: linear-gradient(90deg, #00f0ff, #00f0ff00);
+      background: linear-gradient(90deg, #ff92a4, #ff92a400);
       filter: blur(10px);
     }
   }
@@ -73,9 +73,9 @@
     font-size: 12px;
     color: #fff9;
     text-transform: uppercase;
-    border-left: 2px solid #00f0ff;
-    border-right: 2px solid #00f0ff;
-    border-bottom: 2px solid #00f0ff;
+    border-left: 2px solid #ff92a4;
+    border-right: 2px solid #ff92a4;
+    border-bottom: 2px solid #ff92a4;
     border-radius: 5px;
     background: #000003;
     line-height: 20px;
@@ -114,5 +114,5 @@
 }
 
 .swiper-pagination-bullet-active {
-  background: #00f0ff !important;
+  background: #ff92a4 !important;
 }
